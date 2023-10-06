@@ -1,5 +1,5 @@
 
-package pokemon_herencia;
+
 
 
 public class PokemonHada extends Pokemon{
