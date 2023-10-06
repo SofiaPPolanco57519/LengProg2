@@ -1,7 +1,3 @@
-
-package pokemon_herencia;
-
-
 public class Pokemon {
     private int hp, nivel;
     private String nombre, tipo;
