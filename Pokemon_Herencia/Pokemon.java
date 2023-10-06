@@ -1,3 +1,7 @@
+
+package pokemon_herencia;
+
+
 public class Pokemon {
     private int hp, nivel;
     private String nombre, tipo;
@@ -5,7 +9,7 @@ public class Pokemon {
     public Pokemon() {
     }
 
-    public Pokemon(int nivel, String nombre, String tipo) {
+    public Pokemon(String nombre, String tipo, int nivel) {
         int hp = 100;
         this.nivel = nivel;
         this.nombre = nombre;

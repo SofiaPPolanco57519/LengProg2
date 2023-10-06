@@ -1,3 +1,7 @@
+
+package pokemon_herencia;
+
+
 public class Pokemon_Herencia {
 
     
