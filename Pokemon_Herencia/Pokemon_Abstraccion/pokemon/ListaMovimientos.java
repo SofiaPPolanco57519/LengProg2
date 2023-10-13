@@ -21,4 +21,14 @@ public class ListaMovimientos {
         movimientos.add(new Movimiento("Feerichoque", 100, 16, Tipo.HADA));
 
     }
+    
+    public Movimiento buscarMovimientoPorNombre(String normal){
+        for (Movimiento movimiento : movimientos) {
+            if (movimiento.getNombre().equals("nombre")) {
+                return movimiento;
+        
+            }
+        }
+        return null;
+    }
 }

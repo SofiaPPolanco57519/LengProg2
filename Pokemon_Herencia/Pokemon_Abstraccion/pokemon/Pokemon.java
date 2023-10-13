@@ -2,7 +2,7 @@
 package pokemon;
 
 
-public class Pokemon {
+public abstract class Pokemon {
     private String nombre, tipo;
     private int hp =100;
     private int nivel;
@@ -48,4 +48,6 @@ public class Pokemon {
                 pokemon.getNombre(), movimiento);
                 pokemon.recibirAtaque(movimiento);
     }
+    
+    public abstract double obtenerEfectividad(Pokemon pokemon);
 }
