@@ -1,5 +1,9 @@
 
+package Pokemon_Abstraccion;
 
+import pokemon.Pokemon;
+import pokemon.PokemonFantasma;
+import pokemon.PokemonHada;
 
 
 public class BatallaPokemon {
