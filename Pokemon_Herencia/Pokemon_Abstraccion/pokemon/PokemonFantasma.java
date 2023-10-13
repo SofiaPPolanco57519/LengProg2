@@ -1,5 +1,5 @@
 
-
+package pokemon;
 
 
 public class PokemonFantasma extends Pokemon{
