@@ -2,7 +2,7 @@
 package pokemon;
 
 
-public class Movimiento {
+class Movimiento {
     private String nombre;
     private int puntosDeAtaque, pp;
     private Tipo tipo;
