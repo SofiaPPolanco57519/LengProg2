@@ -8,7 +8,7 @@ public abstract class Pokemon {
     private Tipo tipo;
     private int HP = 250;
     private int nivel;
-    private Movimiento movimientos[];
+    private Movimiento[] movimientos;
 
   
     public Pokemon(String nombre, Tipo tipo, int nivel) {
