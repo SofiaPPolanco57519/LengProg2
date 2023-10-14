@@ -1,7 +1,6 @@
 
 package Pokemon_Abstraccion;
 
-import pokemon.Pokemon;
 import pokemon.PokemonFantasma;
 import pokemon.PokemonHada;
 
@@ -9,10 +8,11 @@ import pokemon.PokemonHada;
 public class BatallaPokemon {
 
     public static void main(String[] args) {
-        Pokemon Mimikyu= new Pokemon ("Mimikyu", "Fantasma", 10);
-        Pokemon Jigglypuff= new Pokemon ("Jigglypuff", "Hada", 10);
-        Mimikyu.atacar("Bola sombra", Jigglypuff);
-        Jigglypuff.atacar("Carantoña", Mimikyu);
+        PokemonFantasma Mimikyu= new PokemonFantasma ("Mimikyu", 10);
+        PokemonHada Jigglypuff= new PokemonHada ("Jigglypuff", 10);
+        Mimikyu.atacar(1, Jigglypuff);
+        Jigglypuff.atacar(0, Mimikyu);
 
     }
+    
 }
